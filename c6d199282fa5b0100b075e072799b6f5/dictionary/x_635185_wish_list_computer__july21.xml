@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="computer _july21" max_length="40" name="x_635185_wish_list_computer__july21" sizeclass="19" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=B" label="B" max_length="40" name="u_b" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=D" label="D" max_length="74" name="u_d" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=E" label="E" max_length="42" name="u_e" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=F" label="F" max_length="72" name="u_f" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=G" label="G" max_length="40" name="u_g" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=H" label="H" max_length="40" name="u_h" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=I" label="I" max_length="48" name="u_i" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=J" label="J" max_length="40" name="u_j" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=K" label="K" max_length="40" name="u_k" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Name" label="Name" max_length="40" name="u_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Request a new Laptop" label="Request a new Laptop" max_length="65" name="u_request_a_new_laptop" type="string"/>
+    </element>
+</database>
