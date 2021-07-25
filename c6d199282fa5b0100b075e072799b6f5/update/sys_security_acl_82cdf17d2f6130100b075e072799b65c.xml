@@ -3,25 +3,25 @@
         <active>true</active>
         <admin_overrides>true</admin_overrides>
         <advanced>false</advanced>
-        <condition table="x_635185_wish_list_wish_item">sys_updated_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^EQ<item endquery="false" field="sys_updated_on" goto="false" newquery="false" operator="ON" or="false" value="Today@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()"/>
+        <condition table="x_635185_wish_list_wish_item">requesterDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="requester" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
-        <description>Allow write for records in x_635185_wish_list_wish_item, for users with role x_635185_wish_list.user, and if the ACL condition (sys_updated_onONToday@javascript:gs.beginningOfToday()@javascript:gs.endOfToday()^EQ) evaluates to true.</description>
+        <description/>
         <name>x_635185_wish_list_wish_item</name>
-        <operation display_value="write">write</operation>
+        <operation display_value="create">create</operation>
         <script/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-07-21 08:25:46</sys_created_on>
-        <sys_id>1903d1e82fa5b0100b075e072799b69e</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_created_on>2021-07-25 08:51:23</sys_created_on>
+        <sys_id>82cdf17d2f6130100b075e072799b65c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>x_635185_wish_list_wish_item</sys_name>
         <sys_package display_value="wish list" source="x_635185_wish_list">c6d199282fa5b0100b075e072799b6f5</sys_package>
         <sys_policy/>
         <sys_scope display_value="wish list">c6d199282fa5b0100b075e072799b6f5</sys_scope>
-        <sys_update_name>sys_security_acl_1903d1e82fa5b0100b075e072799b69e</sys_update_name>
+        <sys_update_name>sys_security_acl_82cdf17d2f6130100b075e072799b65c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-07-25 08:25:59</sys_updated_on>
+        <sys_updated_on>2021-07-25 08:51:23</sys_updated_on>
         <type display_value="record">record</type>
     </sys_security_acl>
 </record_update>
